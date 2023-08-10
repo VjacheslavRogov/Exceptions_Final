@@ -1,6 +1,6 @@
 package ru.geekbrains;
 
-public class DataException extends Exception{
+public class DataException extends Exception {
     public DataException() {
     }
 

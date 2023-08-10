@@ -13,7 +13,7 @@ public class ParsData {
             if (i.length() == 1) {
                 if (i.equals("f") || i.equals("m")) {
                     dataDic.put("sex", i);
-                } else{
+                } else {
                     try {
                         throw new SexException();
                     } catch (SexException e) {
